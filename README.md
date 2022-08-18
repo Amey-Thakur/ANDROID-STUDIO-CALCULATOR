@@ -3,6 +3,8 @@
 
  - [X] **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
+ - [X] **[Project Demo](https://www.youtube.com/watch?v=g0uc8xAfdFk)**
+ 
 ### Steps to build an APK file in Android Studio
 1. Open the project in Android Studio.
 
