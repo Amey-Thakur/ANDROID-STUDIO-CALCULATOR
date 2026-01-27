@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Android Studio Calculator
+    
+    Developed by: Amey Thakur & Mega Satish
+    GitHub: https://github.com/Amey-Thakur | https://github.com/msatmod
+    Repository: https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR
+    
+    Description: System-level application configuration for the Android Calculator.
+    Defines Activity properties, intent filters, and hardware support.
+    
+    Release Date: May 27, 2022
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.calculator">

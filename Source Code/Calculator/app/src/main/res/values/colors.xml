@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Android Studio Calculator
+    
+    Developed by: Amey Thakur & Mega Satish
+    GitHub: https://github.com/Amey-Thakur | https://github.com/msatmod
+    Repository: https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR
+    
+    Description: Color resource definitions for the Android Calculator project.
+    
+    Release Date: May 27, 2022
+-->
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
