@@ -203,7 +203,7 @@ Copyright © 2022 Amey Thakur & Mega Satish
 
 **Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur) & [Mega Satish](https://github.com/msatmod)
 
-This project features **Android Studio Calculator**, a scholarly exploration into **Java**-based mobile application architecture and Android UI dynamics. It represents a finalized record of early development heuristics and interactive system design.
+This project features **Android Studio Calculator**, a scholarly exploration into **Java**-based mobile application architecture and Android UI dynamics. It represents a functional study of the **Android Activity Lifecycle**, UI state management, and precisely engineered arithmetic logic in a mobile environment.
 
 **Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
 
@@ -223,7 +223,7 @@ Special thanks to the **mentors and peers** whose encouragement, discussions, an
 
   <br>
 
-  📟 **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
+  � **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
   ---
 
