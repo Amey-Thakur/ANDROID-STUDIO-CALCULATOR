@@ -10,7 +10,13 @@
 
   A simple and efficient Calculator application built for Android using Java, featuring basic arithmetic operations and a clean user interface.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)** &nbsp;·&nbsp; **[Project Demo](https://www.youtube.com/watch?v=g0uc8xAfdFk)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)**
+
+  <br>
+
+  <a href="https://youtu.be/g0uc8xAfdFk">
+    <img src="https://img.youtube.com/vi/g0uc8xAfdFk/maxresdefault.jpg" alt="Video Demo" width="70%">
+  </a>
 
 </div>
 
@@ -55,6 +61,9 @@
 
 ```python
 ANDROID-STUDIO-CALCULATOR/
+│
+├── docs/                            # Technical Documentation
+│   └── SPECIFICATION.md             # Architecture & Design Specification
 │
 ├── Mega/                            # Attribution Assets
 │   ├── Filly.jpg                    # Companion (Filly)
