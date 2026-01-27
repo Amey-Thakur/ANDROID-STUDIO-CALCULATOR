@@ -100,11 +100,43 @@ ANDROID-STUDIO-CALCULATOR/
 <a name="quick-start"></a>
 ## Quick Start
 
-### Steps to build an APK file in Android Studio
+### 1. Prerequisites
+- **Android Studio**: Required for building and development. [Download Android Studio](https://developer.android.com/studio)
+- **Git**: For version control and cloning. [Download Git](https://git-scm.com/downloads)
 
-1. **Open the project** in Android Studio.
-2. Click on **Build** -> **Build Bundle(s)/APK(s)** -> **Build APK**.
-3. Click on **Locate** the file in the event log.
+> [!WARNING]
+> **APK Execution Security**
+>
+> When installing the pre-compiled `Calculator.apk` on a physical Android device, you may encounter a **"Blocked by Play Protect"** or **"Unknown Apps"** warning. This is expected for scholarship-based, self-signed APKs. To proceed with the installation, select "Install anyway" or enable "Allow from this source" in your device's security settings.
+
+### 2. Installation & Setup
+
+#### Step 1: Clone the Repository
+Open your terminal and clone the repository:
+```bash
+git clone https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR.git
+cd ANDROID-STUDIO-CALCULATOR
+```
+
+#### Step 2: Open in Android Studio
+1. Launch **Android Studio**.
+2. Select **Open** and navigate to the `Source Code/Calculator` directory.
+3. Wait for the **Gradle synchronization** to complete.
+
+### 3. Build & Execution
+
+#### Step 1: Generate Debug APK
+Navigate to the build menu to generate a fresh executable:
+1. Click on **Build** -> **Build Bundle(s)/APK(s)** -> **Build APK**.
+2. Monitor the **Event Log** for completion.
+
+#### Step 2: Locate Artifact
+1. Click on **Locate** in the event log notification.
+2. The generated `app-debug.apk` will be available in the `app/build/outputs/apk/debug/` directory.
+
+> [!NOTE]
+> ### 📥 Direct Download
+> For immediate use without building from source, you can **[Download the pre-compiled Calculator.apk](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)** directly from the repository root.
 
 ---
 
