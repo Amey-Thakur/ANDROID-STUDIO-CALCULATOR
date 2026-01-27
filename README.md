@@ -51,7 +51,18 @@
 <a name="overview"></a>
 ## Overview
 
-**Android Studio Calculator** is a mobile application developed as part of a personal exploration into Android development using Java. The application provides a stable environment for basic arithmetic calculations, focusing on performance, UI symmetry, and scholarly code documentation.
+**Android Studio Calculator** is a precision-engineered mobile utility developed using **Java** and **Android Studio**, focusing on logical state management and UI symmetry. By leveraging the **Android Activity Lifecycle**, this project offers a stable, responsive, and mathematically accurate platform for basic arithmetic, bridging the gap between functional utility and scholarly software documentation.
+
+### core mechanics
+The application is governed by strict **computational design patterns** ensuring fidelity and responsiveness:
+*   **Logical Precedence**: The engine utilizes a synchronous arithmetic pipeline, ensuring that every input event is processed in real-time with zero-latency state transitions.
+*   **UI Symmetry**: Unlike generic utilities, the interface integrates a **ConstraintLayout-based geometry** that dynamically adapts to diverse mobile screen ratios, preserving visual balance.
+*   **State Persistence**: Input handling is synchronized with the Android lifecycle, ensuring that the calculation corridor remains stable during orientation changes or system interruptions.
+
+> [!TIP]
+> **Sensory Feedback Integration**
+>
+> To maximize input clarity, the application employs a **Tactile Feedback System**. **Haptic triggers** synchronize with touch events, and **dynamic text scaling** visualizes the expression's complexity, strictly coupling user intent with system response. This ensures the user's mental model is constantly synchronized with the underlying arithmetic simulation without reliance on intrusive HUD elements.
 
 ---
 
