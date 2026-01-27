@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+    Android Studio Calculator
+    
+    Developed by: Amey Thakur & Mega Satish
+    GitHub: https://github.com/Amey-Thakur | https://github.com/msatmod
+    Repository: https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR
+    
+    Description: Responsive UI design and layout geometry for the Android Calculator project.
+    Utilizes a nested LinearLayout architecture with weightSum properties for multi-device symmetry.
+    
+    Release Date: May 27, 2022
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,6 +20,8 @@
     android:background="#000"
     android:weightSum="10"
     tools:context=".MainActivity">
+
+    <!-- Secondary Display: Visualizes the operand history and expression context -->
     <TextView
         android:id="@+id/tvsec"
         android:layout_width="match_parent"
@@ -21,10 +35,10 @@
         android:padding="10dp"
         android:textSize="30sp"
         android:maxLines="1"
-        android:textAlignment="viewEnd"
-        >
-
+        android:textAlignment="viewEnd">
     </TextView>
+
+    <!-- Main Display: Primary output buffer for the current input and results -->
     <TextView
         android:id="@+id/tvmain"
         android:layout_width="match_parent"
@@ -37,21 +51,23 @@
         android:padding="10dp"
         android:textSize="50sp"
         android:maxLines="1"
-        android:textAlignment="viewEnd"
-        >
-
+        android:textAlignment="viewEnd">
     </TextView>
 
+    <!-- Interactive Grid Container: Housing the calculator's functional buttons -->
     <LinearLayout
         android:layout_weight="7"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="0dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:weightSum="7">
+
+            <!-- Functional Row 1: Clearance, Parentheses, and Bracketing -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -71,9 +87,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bc"
                         android:text="C"
@@ -82,9 +96,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bbrac1"
                         android:text="("
@@ -93,9 +105,7 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bbrac2"
                         android:text=")"
@@ -104,13 +114,11 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Functional Row 2: Scientific Functions (Trigonometry and Logs) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -131,9 +139,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bcos"
                         android:text="cos"
@@ -143,9 +149,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/btan"
                         android:text="tan"
@@ -155,9 +159,7 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/blog"
                         android:text="log"
@@ -167,9 +169,7 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bln"
                         android:text="ln"
@@ -179,13 +179,11 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Functional Row 3: Complex Arithmetic (Factorial, Square, Sqrt, Division) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -206,9 +204,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bsquare"
                         android:text="x²"
@@ -218,9 +214,7 @@
                         android:textColor="#ffa500"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bsqrt"
                         android:text="√"
@@ -229,9 +223,7 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/binv"
                         android:text="1/x"
@@ -241,9 +233,7 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bdiv"
                         android:text="÷"
@@ -252,13 +242,11 @@
                         android:background="#000"
                         android:layout_weight="1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Numeric Row 1 (7, 8, 9, *) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -278,9 +266,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b8"
                         android:text="8"
@@ -289,9 +275,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b9"
                         android:text="9"
@@ -300,9 +284,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bmod"
                         android:text="×"
@@ -311,13 +293,11 @@
                         android:textSize="30sp"
                         android:background="#000"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Numeric Row 2 (4, 5, 6, -) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -337,9 +317,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b5"
                         android:text="5"
@@ -348,9 +326,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b6"
                         android:text="6"
@@ -359,9 +335,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bminus"
                         android:text="-"
@@ -370,13 +344,11 @@
                         android:textColor="#ffa500"
                         android:background="#000"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Numeric Row 3 (1, 2, 3, +) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -396,9 +368,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b2"
                         android:text="2"
@@ -407,9 +377,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b3"
                         android:text="3"
@@ -418,9 +386,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bplus"
                         android:text="+"
@@ -429,13 +395,11 @@
                         android:textColor="#ffa500"
                         android:background="#000"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
+
+            <!-- Numeric Row 4 (pi, 0, ., =) -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -455,9 +419,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/b0"
                         android:text="0"
@@ -466,9 +428,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bdot"
                         android:text="."
@@ -477,9 +437,7 @@
                         android:background="#000"
                         android:textColor="#fff"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
+                        android:layout_height="match_parent" />
                     <Button
                         android:id="@+id/bequal"
                         android:text="="
@@ -488,12 +446,8 @@
                         android:textColor="#ffa500"
                         android:background="#000"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                    </Button>
-
+                        android:layout_height="match_parent" />
                 </LinearLayout>
-
             </LinearLayout>
 
         </LinearLayout>

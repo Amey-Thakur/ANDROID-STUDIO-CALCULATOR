@@ -1,3 +1,16 @@
+/**
+ * Android Studio Calculator
+ * 
+ * Developed by: Amey Thakur & Mega Satish
+ * GitHub: https://github.com/Amey-Thakur | https://github.com/msatmod
+ * Repository: https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR
+ * 
+ * Description: A functional study of the Android Activity Lifecycle, UI state management, 
+ * and carefully implemented arithmetic logic in a mobile environment.
+ * 
+ * Release Date: May 27, 2022
+ */
+
 package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,17 +21,28 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * MainActivity serves as the primary controller for the Calculator application.
+ * It manages the user interface, event listeners, and coordinates the execution
+ * of mathematical operations using a recursive descent parser.
+ */
 public class MainActivity extends AppCompatActivity {
+    // UI Widget Declarations: Mapping physical interactive elements to Java objects
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b0,bac,bc,bp,bsqrt,bplus,bminus,bdiv,bmod,bequal,bdot,bbrac1,bbrac2,bsin,bcos,btan,bsquare,bpi,bfact,blog,bln,binv;
-    TextView tvmain,tvsec;
+    TextView tvmain,tvsec; // Primary and secondary output buffers
     int sum = 0;
-    String pi = "3.14159265";
+    String pi = "3.14159265"; // Constant definition for mathematical precision
 
+    /**
+     * Entry point of the Activity Lifecycle. 
+     * Performs initial setup, UI binding, and event listener registration.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // Inflating the layout geometry
 
+        // Widget Initialization: Linking XML IDs to Java View components
         b1 = findViewById(R.id.b1);
         b2 = findViewById(R.id.b2);
         b3 = findViewById(R.id.b3);
@@ -53,7 +77,9 @@ public class MainActivity extends AppCompatActivity {
         tvmain = findViewById(R.id.tvmain);
         tvsec = findViewById(R.id.tvsec);
 
-        //onclick listeners
+        /**
+         * Numeric Input Handling: Appending character sequences to the display buffer.
+         */
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -124,6 +150,10 @@ public class MainActivity extends AppCompatActivity {
                 tvmain.setText(val+b0.getText().toString());
             }
         });
+        
+        /**
+         * Floating Point Logic: Ensures only a single decimal point is permitted per numerical operand.
+         */
         bdot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -134,6 +164,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        /**
+         * Arithmetic Operator Mapping: Implementing basic mathematical operations (+, -, /, %)
+         */
         bplus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -176,6 +210,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+        /**
+         * Special Functions: Square Root, Exponentiation, Trigonometry, and Logarithms.
+         */
         bsqrt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -185,10 +223,15 @@ public class MainActivity extends AppCompatActivity {
                 tvmain.setText(result);
             }
         });
+
+        /**
+         * Primary Execution Logic: Invokes the parser to evaluate the accumulated expression.
+         */
         bequal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String val = tvmain.getText().toString();
+                // Sanitizing the input string to replace visual operators with computational tokens.
                 String replacedString = val.replace('÷','/').replace('×', '*');
                 double result = eval(replacedString);
                 String r = String.valueOf(result);
@@ -196,6 +239,10 @@ public class MainActivity extends AppCompatActivity {
                 tvsec.setText(val);
             }
         });
+
+        /**
+         * Buffer Clearance: Resets the primary and secondary display strings.
+         */
         bac.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -203,6 +250,10 @@ public class MainActivity extends AppCompatActivity {
                 tvsec.setText("");
             }
         });
+
+        /**
+         * Character Deletion: Removes the final character from the input buffer.
+         */
         bc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -233,28 +284,24 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 tvmain.setText(tvmain.getText()+pi);
                 tvsec.setText(bpi.getText());
-                //hold
             }
         });
         bsin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvmain.setText(tvmain.getText()+"sin");
-                //hold
             }
         });
         bcos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvmain.setText(tvmain.getText()+"cos");
-                //hold
             }
         });
         btan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvmain.setText(tvmain.getText()+"tan");
-                //hold
             }
         });
         bsquare.setOnClickListener(new View.OnClickListener() {
@@ -296,17 +343,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //factorial
+    /**
+     * Algorithmic Recursion: Calculates the factorial of an integer n.
+     * Complexity: O(n)
+     */
     int factorial(int n)
     {
-
-        // find factorial
         return (n == 1 || n == 0) ? 1 : n * factorial(n - 1);
-
     }
 
-    //evaluation
-
+    /**
+     * Expression Parser Engine
+     * Implements a Recursive Descent Parser for robust mathematical evaluation.
+     * Grammar follows standard Operator Precedence.
+     * 
+     * @param str The raw expression string to evaluate.
+     * @return The computed numerical result.
+     */
     public static double eval(final String str) {
         return new Object() {
             int pos = -1, ch;
@@ -331,12 +384,7 @@ public class MainActivity extends AppCompatActivity {
                 return x;
             }
 
-            // Grammar:
-            // expression = term | expression `+` term | expression `-` term
-            // term = factor | term `*` factor | term `/` factor
-            // factor = `+` factor | `-` factor | `(` expression `)`
-            //        | number | functionName factor | factor `^` factor
-
+            // High-Level Expression (Addition/Subtraction)
             double parseExpression() {
                 double x = parseTerm();
                 for (;;) {
@@ -346,6 +394,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            // Mid-Level Term (Multiplication/Division)
             double parseTerm() {
                 double x = parseFactor();
                 for (;;) {
@@ -355,19 +404,20 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            // Atomic Factor handling (Brackets, Functions, Numbers)
             double parseFactor() {
                 if (eat('+')) return parseFactor(); // unary plus
                 if (eat('-')) return -parseFactor(); // unary minus
 
                 double x;
                 int startPos = this.pos;
-                if (eat('(')) { // parentheses
+                if (eat('(')) { // Parentheses Logic
                     x = parseExpression();
                     eat(')');
-                } else if ((ch >= '0' && ch <= '9') || ch == '.') { // numbers
+                } else if ((ch >= '0' && ch <= '9') || ch == '.') { // Numeric Parsing
                     while ((ch >= '0' && ch <= '9') || ch == '.') nextChar();
                     x = Double.parseDouble(str.substring(startPos, this.pos));
-                } else if (ch >= 'a' && ch <= 'z') { // functions
+                } else if (ch >= 'a' && ch <= 'z') { // Function Recognition (sin, cos, log, etc.)
                     while (ch >= 'a' && ch <= 'z') nextChar();
                     String func = str.substring(startPos, this.pos);
                     x = parseFactor();
@@ -382,7 +432,7 @@ public class MainActivity extends AppCompatActivity {
                     throw new RuntimeException("Unexpected: " + (char)ch);
                 }
 
-                if (eat('^')) x = Math.pow(x, parseFactor()); // exponentiation
+                if (eat('^')) x = Math.pow(x, parseFactor()); // Advanced Operator: Exponentiation
 
                 return x;
             }

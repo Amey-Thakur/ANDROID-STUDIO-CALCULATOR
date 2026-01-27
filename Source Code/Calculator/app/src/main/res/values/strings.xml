@@ -1,3 +1,14 @@
+<!-- 
+    Android Studio Calculator
+    
+    Developed by: Amey Thakur & Mega Satish
+    GitHub: https://github.com/Amey-Thakur | https://github.com/msatmod
+    Repository: https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR
+    
+    Description: String resource definitions for the Android Calculator project.
+    
+    Release Date: May 27, 2022
+-->
 <resources>
     <string name="app_name">Calculator</string>
 </resources>
