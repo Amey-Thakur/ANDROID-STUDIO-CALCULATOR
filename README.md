@@ -223,7 +223,7 @@ Special thanks to the **mentors and peers** whose encouragement, discussions, an
 
   <br>
 
-  � **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
+  🔢 **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
   ---
 
