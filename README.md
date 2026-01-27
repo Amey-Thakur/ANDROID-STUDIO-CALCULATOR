@@ -140,6 +140,23 @@ Navigate to the build menu to generate a fresh executable:
 
 ---
 
+<!-- USAGE GUIDELINES -->
+<a name="usage-guidelines"></a>
+## Usage Guidelines
+
+This repository is openly shared to support learning and knowledge exchange across the academic community.
+
+**For Students**  
+Use this project as reference material for understanding **Android Activity Lifecycle**, **Java-based arithmetic logic**, and **responsive UI design with ConstraintLayout**. The source code is available for study to facilitate self-paced learning and exploration of **mobile application architecture**.
+
+**For Educators**  
+This project may serve as a practical lab example or supplementary teaching resource for **Mobile Application Development**, **Java Programming**, and **User Interface Design** courses. Attribution is appreciated when utilizing content.
+
+**For Researchers**  
+The documentation and architectural approach may provide insights into **academic project structuring**, **scholarly software documentation**, and **mobile state management heuristics**.
+
+---
+
 <!-- LICENSE -->
 <a name="license"></a>
 ## License
