@@ -10,7 +10,7 @@
 
   A simple and efficient Calculator application built for Android using Java, featuring basic arithmetic operations and a clean user interface.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
   <br>
 
