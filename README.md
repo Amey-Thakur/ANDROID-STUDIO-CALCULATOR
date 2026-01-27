@@ -123,7 +123,7 @@ ANDROID-STUDIO-CALCULATOR/
 ├── SECURITY.md                      # Security Protocols
 ├── CITATION.cff                     # Academic Citation Manifest
 ├── codemeta.json                    # Metadata Standard
-├── LICENSE                          # MIT License (Verbatim)
+├── LICENSE                          # MIT License
 └── README.md                        # Project Entrance
 ```
 
