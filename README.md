@@ -10,7 +10,7 @@
 
   A simple and efficient Calculator application built for Android using Java, featuring basic arithmetic operations and a clean user interface.
 
-  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)**
+  **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
   <br>
 
@@ -24,7 +24,7 @@
 
 <div align="center">
 
-  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository)
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
 </div>
 
@@ -66,6 +66,21 @@ The application is governed by strict **computational design patterns** ensuring
 
 ---
 
+<!-- FEATURES -->
+<a name="features"></a>
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| **Arithmetic Engine** | Core logic for Addition, Subtraction, Multiplication, and Division with real-time evaluation. |
+| **Responsive UI** | Optimized XML-based layouts using **ConstraintLayout** for multi-device compatibility. |
+| **Memory Efficiency** | Minimalized runtime footprint ensuring performance on legacy Android hardware. |
+| **Lifecycle Integration** | Robust state persistence synchronized with the **Android Activity Lifecycle**. |
+| **Tactile Feedback** | Integrated haptic response for enhanced user interaction and input confirmation. |
+| **Input Sanitization** | Heuristic-based input validation to prevent logical calculation errors. |
+
+---
+
 <!-- STRUCTURE -->
 <a name="project-structure"></a>
 ## Project Structure
@@ -93,6 +108,18 @@ ANDROID-STUDIO-CALCULATOR/
 ├── LICENSE                          # MIT License (Verbatim)
 └── README.md                        # Project Entrance
 ```
+
+---
+
+<!-- RESULTS -->
+<a name="results"></a>
+## Results
+
+<div align="center">
+
+  *(Calculated Results and Interface Walkthrough will be documented here.)*
+
+</div>
 
 ---
 
@@ -163,6 +190,9 @@ The documentation and architectural approach may provide insights into **academi
 
 This repository and all its creative and technical assets are made available under the **MIT License**. See the [LICENSE](LICENSE) file for complete terms.
 
+> [!NOTE]
+> **Summary**: You are free to share and adapt this content for any purpose, even commercially, as long as you provide appropriate attribution to the original authors.
+
 Copyright © 2022 Amey Thakur & Mega Satish
 
 ---
@@ -173,9 +203,27 @@ Copyright © 2022 Amey Thakur & Mega Satish
 
 **Created & Maintained by**: [Amey Thakur](https://github.com/Amey-Thakur) & [Mega Satish](https://github.com/msatmod)
 
+This project features **Android Studio Calculator**, a scholarly exploration into **Java**-based mobile application architecture and Android UI dynamics. It represents a finalized record of early development heuristics and interactive system design.
+
+**Connect:** [GitHub](https://github.com/Amey-Thakur) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/amey-thakur) &nbsp;·&nbsp; [ORCID](https://orcid.org/0000-0001-5644-1575)
+
+### Acknowledgments
+
+Grateful acknowledgment to [**Mega Satish**](https://github.com/msatmod) for her exceptional collaboration and scholarly partnership during the development of this interactive engineering project. Her constant support, technical clarity, and dedication to software quality were instrumental in achieving the system's functional objectives. Learning alongside her was a transformative experience; her thoughtful approach to problem-solving and steady encouragement turned complex requirements into meaningful learning moments. This work reflects the growth and insights gained from our side-by-side academic journey. Thank you, Mega, for everything you shared and taught along the way.
+
+Special thanks to the **mentors and peers** whose encouragement, discussions, and support contributed meaningfully to this learning experience.
+
+---
+
 <div align="center">
 
-  🧠 **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR)**
+  [↑ Back to Top](#readme-top)
+
+  [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
+
+  <br>
+
+  🧠 **[Android Studio Calculator](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
 
   ---
 
