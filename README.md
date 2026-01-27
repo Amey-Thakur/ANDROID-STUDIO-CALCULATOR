@@ -95,6 +95,10 @@ ANDROID-STUDIO-CALCULATOR/
 │   ├── Filly.jpg                    # Companion (Filly)
 │   └── Mega.png                     # Profile Image (Mega Satish)
 │
+├── screenshots/                     # Project Visualization Gallery
+│   ├── 01-Main.jpg                  # Primary Application Interface
+│   └── 02-Calculation.jpg           # Real-time Arithmetic Logic
+│
 ├── Source Code/                     # Primary Application Layer
 │   └── Calculator/                  # Android Studio Project Root
 │       ├── app/                     # Main Application Module
@@ -117,7 +121,19 @@ ANDROID-STUDIO-CALCULATOR/
 
 <div align="center">
 
-  *(Calculated Results and Interface Walkthrough will be documented here.)*
+  <b>Primary Interface: Main Activity</b>
+  <br>
+  <i>Scholarly UI design utilizing robust layout geometry for mobile interaction.</i>
+  <br><br>
+  <img src="screenshots/01-Main.jpg" alt="Main Interface" width="70%">
+  <br><br><br>
+
+  <b>Arithmetic Logic: Functional Execution</b>
+  <br>
+  <i>Successful state transition and results rendering within the calculation corridor.</i>
+  <br><br>
+  <img src="screenshots/02-Calculation.jpg" alt="Calculation Logic" width="70%">
+  <br><br><br>
 
 </div>
 
