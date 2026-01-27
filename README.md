@@ -21,12 +21,11 @@
 
 2. Click on Build -> Build Bundle(s)/APK(s) -> Build APK.
 
-3. Click on locate the file in the event log.
+3. Click on Locate the file in the event log.
 
 ---
 
-<p align="center"> <b> 👉🏻 Created to Learn Android Studio  👈🏻 <b> </p>
+<p align="center"> <b> 👉🏻 Created to Learn Android Studio 👈🏻 </b> </p>
 
-<p align="center"> <b> 👷 Project Authors: Amey Thakur and Mega Satish <b> </p>
- 
-<p align="center"><a href='https://github.com/Amey-Thakur/COMPUTER-ENGINEERING', style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</p> 
+<p align="center"> <b> 👷 Project Authors: Amey Thakur and Mega Satish </b> </p>
+<p align="center"><a href='https://github.com/Amey-Thakur/COMPUTER-ENGINEERING' style='color: greenyellow;'> ✌🏻 Back To Engineering ✌🏻</a></p>
