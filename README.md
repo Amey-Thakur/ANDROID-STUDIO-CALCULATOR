@@ -123,14 +123,14 @@ ANDROID-STUDIO-CALCULATOR/
 
   <b>Primary Interface: Main Activity</b>
   <br>
-  <i>Scholarly UI design utilizing robust layout geometry for mobile interaction.</i>
+  <i>Clean and responsive UI design optimized for mobile interaction.</i>
   <br><br>
   <img src="screenshots/01-Main.jpg" alt="Main Interface" width="70%">
   <br><br><br>
 
   <b>Arithmetic Logic: Functional Execution</b>
   <br>
-  <i>Successful state transition and results rendering within the calculation corridor.</i>
+  <i>Real-time arithmetic processing and accurate result display.</i>
   <br><br>
   <img src="screenshots/02-Calculation.jpg" alt="Calculation Logic" width="70%">
   <br><br><br>
