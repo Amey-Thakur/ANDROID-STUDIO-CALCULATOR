@@ -1,16 +1,19 @@
 <div align="center">
 
-  <a name="readme-top"></a>
   # Android Studio Calculator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
-  ![Status](https://img.shields.io/badge/Status-Completed-success)
-  [![Technology](https://img.shields.io/badge/Technology-Java%20%7C%20Android-orange)](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR)
-  [![Developed by Amey Thakur and Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%20%26%20Mega%20Satish-blue.svg)](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR)
+  ![Status](https://img.shields.io/badge/Status-Completed-2EA043)
+  [![Technology](https://img.shields.io/badge/Technology-Java%20%7C%20Android-8250DF)](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR)
+  [![Developed by Amey Thakur and Mega Satish](https://img.shields.io/badge/Developed%20by-Amey%20Thakur%20%26%20Mega%20Satish-0969DA.svg)](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR)
 
   A simple and efficient Calculator application built for Android using Java, featuring basic arithmetic operations and a clean user interface.
 
   **[Source Code](Source%20Code/)** &nbsp;·&nbsp; **[Technical Specification](docs/SPECIFICATION.md)** &nbsp;·&nbsp; **[Video Demo](https://youtu.be/g0uc8xAfdFk)** &nbsp;·&nbsp; **[Download APK](https://github.com/Amey-Thakur/ANDROID-STUDIO-CALCULATOR/blob/main/Calculator.apk?raw=true)**
+
+  <br>
+
+  <img src=".github/social-preview.png" alt="Android Studio Calculator" width="90%">
 
   <br>
 
@@ -36,7 +39,7 @@
   <a name="authors"></a>
   ## Authors
 
-| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-green.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-green.svg)](https://orcid.org/0000-0002-1844-9557) |
+| <a href="https://github.com/Amey-Thakur"><img src="https://github.com/Amey-Thakur.png" width="150" height="150" alt="Amey Thakur"></a><br>[**Amey Thakur**](https://github.com/Amey-Thakur)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0001--5644--1575-A6CE39.svg)](https://orcid.org/0000-0001-5644-1575) | <a href="https://github.com/msatmod"><img src="Mega/Mega.png" width="150" height="150" alt="Mega Satish"></a><br>[**Mega Satish**](https://github.com/msatmod)<br><br>[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1844--9557-A6CE39.svg)](https://orcid.org/0000-0002-1844-9557) |
 | :---: | :---: |
 
 </div>
@@ -242,7 +245,7 @@ Special thanks to the **mentors and peers** whose encouragement, discussions, an
 
 <div align="center">
 
-  [↑ Back to Top](#readme-top)
+  [↑ Back to Top](#android-studio-calculator)
 
   [Authors](#authors) &nbsp;·&nbsp; [Overview](#overview) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Structure](#project-structure) &nbsp;·&nbsp; [Results](#results) &nbsp;·&nbsp; [Quick Start](#quick-start) &nbsp;·&nbsp; [Usage Guidelines](#usage-guidelines) &nbsp;·&nbsp; [License](#license) &nbsp;·&nbsp; [About](#about-this-repository) &nbsp;·&nbsp; [Acknowledgments](#acknowledgments)
 
@@ -259,3 +262,4 @@ Special thanks to the **mentors and peers** whose encouragement, discussions, an
   *Semester-wise curriculum, laboratories, projects, and academic notes.*
 
 </div>
+
