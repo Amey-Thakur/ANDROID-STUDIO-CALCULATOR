@@ -13,10 +13,6 @@
 
   <br>
 
-  <img src=".github/social-preview.png" alt="Android Studio Calculator" width="90%">
-
-  <br>
-
   <a href="https://youtu.be/g0uc8xAfdFk">
     <img src="https://img.youtube.com/vi/g0uc8xAfdFk/maxresdefault.jpg" alt="Video Demo" width="70%">
   </a>
